@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an E-Commerce for making Goutom Biswas">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>E-Commerce Website</title>
+</head>
+<body>
+   
+    <!--Navbar Start here-->
+
+    <nav>
+        <ul class="nav_upper flex_space_arround">
+            <li class="nav_list"><a href="/index.html" class="nav_link">Home</a></li>
+            <li class="nav_list"><a href="register.html" class="nav_link">Register</a></li>
+            <li class="nav_list"><a href="login.html" class="nav_link">Log in</a></li>
+            <li class="nav_list"><a href="/index.html" class="nav_link">Log Out</a></li>
+            <li class="nav_list"><a href="contact.html" class="nav_link">Contact</a></li>
+            <li class="nav_list"><a href="profile.html" class="nav_link">
+                <img class="profile_icon" src="/img/Goutomm.png" alt="Profile icon">
+            </a></li>
+        </ul>
+
+        <ul class="nav_lower flex_space_arround">
+            <li class="nav_list"><a href="/index.html" class="nav_link nav_brand">GM Express</a></li>
+            <li class="nav_list"><a href="cart.html" class="nav_link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 Product - $124.4
+            </a></li>
+        </ul>
+    </nav>
+
+    <!--Navbar end here-->
+
+    <main>
+        <div class="cart flex-center">
+            <div class="cart_items">
+                <div class="cart_items_heading card">
+                    <h2>Shopping Cart [2 items]</h2>
+                    <div class="cart_items_action">
+                        <label for="select">
+                            <input type="checkbox">
+                            Select all items
+                        </label>
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button class="btn"><a href="index.html">Shop more</a></button>
+                    </div>
+                </div>
+
+                <div class="cart_item card flex_space_arround">
+                    <input type="checkbox" name="" id="">
+                    
+                    <img src="/img/product1.jpeg" alt="" class="cart_item_img">
+
+                    <div class="cart_item_description">
+                        <h3 class="product_name">Sony P47 Headphone</h3>
+                        <h4 class="product_price">Price: $225.99</h4>
+                        <p class="cart_item_shipping">Free Shipping</p>
+                    </div>
+
+                    <div class="cart_item_action">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>2</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cart_item card flex_space_arround">
+                    <input type="checkbox" name="" id="">
+                    
+                    <img src="/img/product2.png" alt="" class="cart_item_img">
+
+                    <div class="cart_item_description">
+                        <h3 class="product_name">One Plus Mobile Phone</h3>
+                        <h4 class="product_price">Price: $1225.99</h4>
+                        <p class="cart_item_shipping">Free Shipping</p>
+                    </div>
+
+                    <div class="cart_item_action">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>2</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart_payment">
+                <div class="cart_payment_summery card">
+                    <h2>Payment Summery</h2>
+                    <div>
+                        <p>Subtotal</p>
+                        <p>$341.99</p>
+                    </div>
+                    <div>
+                        <p>Shipping Cost</p>
+                        <p>$2.99</p>
+                    </div>
+                    <div>
+                        <p>Total Cost</p>
+                        <p>$343.99</p>
+                    </div>
+                    <button class="btn cart_payment_btn">Pay Now</button>
+                </div>
+                <div class="cart_payment_methods">
+                    <h2>Payment Methods</h2>
+                    <div>
+                        <i class="fa-brands fa-cc-visa fa-3x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-amex fa-3x"></i>
+                        <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer Started here-->
+
+    <footer class="footer flex_space_arround">
+        <div class="flex_space_arround">
+            <label for="Subscribe">Subscribe to Newsletter</label>
+            <input type="email" id="Subscribe" name="Subscribe" class="Footer_input" placeholder="Email address" />
+            <button class="btn btn_subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2024 GM Express. All right reserve</p>
+        </div>
+    </footer>
+
+    <!--Footer End here-->
+
+
+</body>
+</html>
